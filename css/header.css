@@ -1,0 +1,39 @@
+    .card-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 220px;
+    }
+    
+    .btn-box {
+        min-width: 180px;
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .btn-box button:first-child {
+        margin-left: 10px;
+    }
+    
+    .dialog-width {
+        max-width: 400px;
+        margin: 6.75rem auto;
+    }
+    
+    #logout-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        vertical-align: text-bottom;
+        fill: #007bff
+    }
+    
+    .btn:hover #logout-icon {
+        fill: white;
+        transition: 0.35s;
+    }

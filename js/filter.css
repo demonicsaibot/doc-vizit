@@ -1,0 +1,16 @@
+.filter{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 0 20px;
+}
+.filter-item{
+    width:600px;
+}
+.filter-select{
+    width: 600px;
+    margin: 0 20px 0 20px;
+    border-radius:10px;
+}
+.d-none{
+    display: none;
+}
