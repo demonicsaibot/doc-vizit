@@ -1,7 +1,7 @@
  @import "header.css";
- @import url("/js/card/card.css");
- @import url("/js/modal/modal.css");
- @import url("./js/filter.css");
+ @import url("js/card/card.css");
+ @import url("js/modal/modal.css");
+ @import url("js/filter.css");
  .main-container {
      /* width: 100%; */
      min-height: 370px;
