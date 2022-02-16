@@ -6,9 +6,9 @@ import { deleteVisitById, updateVisit } from "../api/api.js"
 export default class Card extends Element {
   constructor() {
     super()
-    const cardiologist = "/js/card/img/cardiologist.jpeg"
-    const dentist = "/js/card/img/dentist.jpeg"
-    const therapist = "/js/card/img/therapist.jpeg"
+    const cardiologist = "js/card/img/cardiologist.jpeg"
+    const dentist = "js/card/img/dentist.jpeg"
+    const therapist = "js/card/img/therapist.jpeg"
     this.showMoreBtn = this.createElement(
       "button",
       ["card__show-more-btn", "btn", "btn-primary", "card__show-more-btn--closed"],
