@@ -1,6 +1,6 @@
  @import "header.css";
  @import url("./card.css");
- @import url("./modal/modal.css");
+ @import url("./modal.css");
  @import url("./filter.css");
  .main-container {
      /* width: 100%; */
